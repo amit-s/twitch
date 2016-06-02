@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitch Streamer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <div class="heading">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="text-center">Twitch Streamers</h1>
+      </div>
+      <div class="col-md-6">
+        <div class="row fix">
+          <div class="col-xs-4"><button class="btn btn-primary selected" id="all">All</button></div>
+          <div class="col-xs-4"><button class="btn btn-success" id="online">Online</button></div>
+          <div class="col-xs-4"><button class="btn btn-danger" id="offline">Offline</button></div>
+        </div> <!-- /row -->
+        <div class="row">
+          <input type="text" class="form-control" id="search" placeholder="filter streamers" >
+        </div> <!-- /row -->
+      </div> <!-- /col-md-4 -->
+    </div><!-- /row -->
+  </div> <!-- /heading -->
+  <div class="streamerContent">
+    
+   <!-- ***Structure for streamer content***
+    <div class="streamer offline">
+      <div class="row">
+        <div class="col-md-1 col-xs-3">
+          <div class="streamerLogo">
+            <img src="" class=" img-circle img-responsive" id="logo" height="100">
+          </div> <!-- /streamerLogo --> <!--
+        </div>
+        <div class="col-md-3 col-xs-7">
+          <div class="streamerName"></div> <!-- /streamerName --> <!--
+        </div>
+        <div class="col-md-8 col-xs-9">
+          <div class="streamerInfo"></div> <!-- /streamerInfo --> <!--
+        </div>
+      </div> <!-- /row --> <!--
+    </div> <!-- /streamer --> <!--
+-->
+
+  </div><!-- /streamerContent -->
+</div> <!-- /container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
