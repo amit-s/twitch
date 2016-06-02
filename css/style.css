@@ -1,1 +1,146 @@
+@media only screen and (min-width: 1200px) {
+  .container{
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 992px){
+  #search{
+    width: 95% !important;
+  }
+}
+
+@media only screen and (min-width : 320px) {
+  #logo{
+  width: 80px;
+  height: auto;
+  }
+ }
+
+@media only screen and (max-width : 583px) and (min-width: 415px){
+#logoOnline{
+      margin-top: 25px;
+   }
+}
+
+@media only screen and (max-width : 415px) {
+#logoOnline{
+      margin-top: 30px;
+   }
+}
+
+body{
+  background-image: url("https://www.dropbox.com/s/u42ik9z5mhn4dhg/sayagata-400px.png?raw=1");
+}
+
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 20px solid;
+  border-radius: 30px;
+  box-shadow: 10px 10px 50px 5px gray, -10px -10px 50px 5px gray;  
+  min-height: 900px;
+  background-color: rgba(240,245,245, 0.8);  
+}
+
+.fix{  
+  height: 55px;
+}
+
+.heading{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.selected{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.4em !important;
+}
+
+button{
+  margin: 3px;
+  width: 100%;  
+}
+
+h1{
+  padding: 10px;  
+}
+
+a, a:hover{
+  color: black;
+}
+
+#search{
+  margin: 20px;
+  width: 90%;
+}
+
+#logo{
+  border: 5px solid rgba(0,71,171,0.4);
+  margin: 2px;
+}
+
+.streamer{
+  margin-top: 2px;
+  padding: 5px;
+}
+
+.streamerContent{
+  border: 1px solid;
+  margin-bottom: 50px;
+}
+
+.streamerName, .streamerInfo{  
+  padding-top: 20px;
+  font-size: 1.1em;  
+}
+
+.streamerName{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.streamerInfo{
+  padding-right: 10px;
+  font-style: oblique;
+}
+
+.offline, #offline{
+  background-color: rgba(220,20,60,0.3);
+}
+
+.offline:hover{
+  background-color: rgba(220,20,60,0.5);
+  border: 2px solid rgb(220,20,60);
+}
+
+.online, #online{
+  background-color: rgba(147,197,114,0.5);
+}
+
+.online:hover{
+  background-color: rgba(147,197,114,0.8);
+  border: 2px solid rgb(147,197,114);
+}
+
+#all{
+  background-color: rgba(0,71,171,0.5);
+  color: rgb(0,71,171);
+  font-size: 1.1em;
+  -webkit-transition: padding 2s, font-size 1s;
+  transition: padding 2s, font-size 1s;
+}
+
+#online{
+  color: rgb(0,107,60);
+  -webkit-transition: padding 2s, font-size 1s;
+  transition: padding 2s, font-size 1s;
+}
+
+#offline{
+  color: rgb(220,20,60);
+  -webkit-transition: padding 2s, font-size 1s;
+  transition: padding 2s, font-size 1s;
+}
 
